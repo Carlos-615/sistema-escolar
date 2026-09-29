@@ -213,3 +213,20 @@ body {
   background-color: #c62828;
   color: #ffffff;
 }
+
+.card-aluno .botao-editar {
+  display: inline-block;
+  margin-top: 12px;
+  margin-right: 8px;
+  color: #2e7d32;
+  border: 1px solid #2e7d32;
+  border-radius: 4px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.card-aluno .botao-editar:hover {
+  background-color: #2e7d32;
+  color: #ffffff;
+}
