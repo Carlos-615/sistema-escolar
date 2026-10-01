@@ -11,16 +11,17 @@ function PaginaEdicaoProfessor(props) {
   const [professor, setProfessor] = useState(null);
   const [erro, setErro] = useState("");
 
+  async function carregarProfessor() {
+    try {
+      const dados = await buscarProfessorPorId(id);
+      setProfessor(dados);
+    } catch {
+      setErro("Professor não encontrado.");
+    }
+  }
+
   // Busca o professor na API sempre que o id da URL mudar
   useEffect(function () {
-    async function carregarProfessor() {
-      try {
-        const dados = await buscarProfessorPorId(id);
-        setProfessor(dados);
-      } catch {
-        setErro("Professor não encontrado.");
-      }
-    }
     carregarProfessor();
   }, [id]);
 
