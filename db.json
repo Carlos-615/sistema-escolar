@@ -7,6 +7,34 @@
       "cpf": "123.456.789-00",
       "data_nascimento": "2007-05-14",
       "endereco": "Rua das Flores, 123 - Pau dos Ferros/RN"
+    },
+    {
+      "nome": "Joaquim Rêgo",
+      "email": "ai.papai@Yahoo.com",
+      "cpf": "80028922-67",
+      "data_nascimento": "0001-06-09",
+      "endereco": "Casa rosa, av. zé sim, rua papa-capim, n. 99",
+      "id": 2
+    }
+  ],
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Ana Paula",
+      "email": "ana@email.com",
+      "cpf": "111.222.333-44",
+      "data_nascimento": "1985-02-10",
+      "endereco": "Avenida Central, 100",
+      "disciplina": "Matemática"
+    },
+    {
+      "disciplina": "F�sica",
+      "data_nascimento": "1993-04-15",
+      "cpf": "555.666.777-88",
+      "email": "carlos@email.com",
+      "nome": "Carlos Souza",
+      "endereco": "Rua Nova, 5",
+      "id": 2
     }
   ]
 }
